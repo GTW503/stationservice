@@ -1,0 +1,35 @@
+.company-settings-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .company-settings-form label {
+    font-weight: bold;
+  }
+  
+  .company-settings-form input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .company-photo-preview {
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .company-settings-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .company-settings-form button:hover {
+    background-color: #45a049;
+  }
+  

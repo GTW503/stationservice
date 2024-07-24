@@ -1,0 +1,32 @@
+.historique-container {
+    padding: 40px;
+    background: linear-gradient(135deg, #f0f8ff, #e0e8ff);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transform: perspective(1000px) rotateX(5deg) rotateY(5deg);
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .historique-container h1 {
+    color: #007bff;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .historique-container p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: perspective(1000px) rotateX(5deg) rotateY(5deg) translateY(0);
+    }
+    50% {
+      transform: perspective(1000px) rotateX(5deg) rotateY(5deg) translateY(-20px);
+    }
+  }
+  

@@ -1,0 +1,48 @@
+/* AddArticleForm.css */
+.add-client-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .add-client-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .add-client-form label {
+    font-weight: bold;
+  }
+  
+  .add-client-form input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .add-client-form button {
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-client-form button:hover {
+    background-color: #45a049;
+  }
+  

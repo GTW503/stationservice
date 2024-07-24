@@ -1,0 +1,30 @@
+.add-supplier-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-supplier-form label {
+    font-weight: bold;
+  }
+  
+  .add-supplier-form input,
+  .add-supplier-form select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-supplier-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-supplier-form button:hover {
+    background-color: #45a049;
+  }
+  

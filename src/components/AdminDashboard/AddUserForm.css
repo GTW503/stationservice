@@ -1,0 +1,59 @@
+/* AddUserForm.css */
+.add-user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .add-user-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .add-user-form input,
+  .add-user-form select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .add-user-form input:focus,
+  .add-user-form select:focus {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-user-form button {
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .add-user-form button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

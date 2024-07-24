@@ -1,0 +1,29 @@
+.add-category-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-category-form label {
+    font-weight: bold;
+  }
+  
+  .add-category-form input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-category-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-category-form button:hover {
+    background-color: #45a049;
+  }
+  
